@@ -48,3 +48,8 @@ export interface ILogin {
   email?: string,
   role?: string
 }
+
+export interface INav {
+  label:string,
+  link:string
+}
